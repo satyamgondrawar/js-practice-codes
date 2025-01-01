@@ -36,6 +36,8 @@ console.log(typeof(number));
 //symbol
    //Symbol is a primitive type for unique identifer.
    //Symbol are created with Symbol() call with an option description(name).
+const mySym=Symbol("key1")
+console.log(typeof(mySym));
 
 
 //Non-primitive data type
